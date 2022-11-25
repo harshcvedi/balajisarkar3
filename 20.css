@@ -1,0 +1,190 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+nav{
+    background-color:black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    row-gap: 15px;
+    height: 50px;
+    margin-right: 10px;
+   
+    
+    
+    
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin: center;
+    position: relative;
+    margin-left: 25px;
+    font-size: 20px;
+
+}
+li a:hover{
+  cursor: pointer;
+  color: aquamarine;
+
+}
+
+.harsh11{
+    position: absolute;
+    left: 250px;
+    font-weight: bolder;
+    line-height: 15px;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  li a{
+    padding: 10px;
+  }
+  
+  .harsh12{
+    position: absolute;
+    left: 100px;
+    color: white;
+  }
+  
+  .harsh13{
+    margin-top: 5px;
+    position: absolute;
+    right:25px;
+    color: black;
+   
+    cursor: pointer;
+    border: 0.005px solid  #29d9d5;
+    border-radius: 4px;
+    background-color: bisque;
+  }
+
+
+  .harsh13:hover{
+    cursor: pointer;
+    background-color: #29d9d5;
+  }
+
+  
+.harsh_bg_image_container{
+  height: 100%;
+  width: 100%;
+}
+
+.harsh_bg_image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.harsh_card{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.harsh_title{
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.harsh_subtitle,.harsh_description{
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+
+.images{
+  
+  background-image: url(https://img.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58931.jpg?w=2000);
+  height: 800px;
+}
+
+
+.harsh20{
+  height: 500px;
+  margin-left: 200px;
+  margin-top: 100px;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  border: 15px solid white;
+  border-radius: 5px;
+
+}
+
+.harsh22{
+  position: absolute;
+  left: 750px;
+    top: 300px;
+  font-size: 50px;
+
+}
+
+
+.harsh23{
+  position: absolute;
+  left: 750px;
+  top: 450px;
+  border: 1px solid white;
+  border-radius: 50px;
+  height: 50px;
+  width: 200px;
+  color: purple;
+ 
+}
+
+.harsh23:hover{
+  cursor: pointer;
+}
+
+.harsh26 h1{
+  text-align:center;
+}
+.i1,.i2,.i3,.i4{
+  padding:40px;
+}
+.cart{
+  position: absolute;
+  left:130px;
+
+}
+.cart2{
+  position:absolute;
+  left:150px;
+  top:1200px;
+  padding:40px;
+
+  gap:30px;
+
+}
+.harsh24{
+  background-image: url(https://imgs.search.brave.com/S0myC5NMRs7Ru-NnPT7JSR8kgIzARgeDXWhiTLEaiRU/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5x/N2hDQjEzVmY4R3hr/RzNDRF93Y2pRSGFF/SyZwaWQ9QXBp);
+  height: 200px;
+  color: white;
+  font-size: 50px;
+  
+
+
+}
+text{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 5%;
+}
